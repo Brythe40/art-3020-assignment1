@@ -1,0 +1,38 @@
+/* Place CSS styles here */
+body {
+    background-color: #3e4168;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #94dde2;
+}
+
+.page {
+    padding-left: 5%;
+}
+
+.page img{
+    height: 200px;
+    width: 300px;
+    filter: drop-shadow(10px 10px 16px);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page img:hover{
+    filter: drop-shadow(10px 10px 16px #ffffff);
+}
+
+a:link{
+    color: #ff0000;
+}
+
+a:visited{
+    color: #638a3e;
+}
+
+a:hover{
+    color: #dfacb5;
+}
+a:active{
+    color: #edff48;
+}
