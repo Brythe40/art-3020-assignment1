@@ -1,8 +1,30 @@
 /* Place CSS styles here */
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url("../fonts/DMSerifDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url("../fonts/DMSans-VariableFont_opsz,wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+
 body {
     background-color: #3e4168;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #94dde2;
+    font-family: 'DM Serif Display',  serif;
+}
+
+body h1, h2, h3{
+    font-family: 'DM Sans', sans-serif;
 }
 
 .page {
